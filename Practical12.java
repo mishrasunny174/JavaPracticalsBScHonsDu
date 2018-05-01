@@ -33,6 +33,6 @@ class Demo{
 
     public static void change(Distance dist){
         dist.feets++;
-        System.out.println("Inside change() value of dist(feets)");
+        System.out.println("Inside change() value of dist(feets): "+dist);
     }
 }
